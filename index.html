@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>metafysik</title>
+        <meta name="description" content="metafysik's zone.">
+        <link rel="icon" href="favicon.png">
+        <script src="typed.min.js"></script>
+        <style type="text/css">
+            body {
+                font-family: 'MS Gothic';
+                font-size: 10pt;
+                background-color: #000000;
+                color: #DDDDDD;
+                line-height: 10pt;
+                cursor: default;
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div id="intro-zone">
+                <span id="intro"></span>
+            </div>
+            <div id="like-zone">
+                <span id="like"></span>
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.onload = function () {
+
+                let intro = new Typed("#intro",
+                    {
+                        strings: [
+                            "METAFYSIK> ^4000 Hello.^5000 <br /><br />" + 
+                            "About me:<br /> ^3000 " + 
+                            "Location:^500 Suzhou, Jiangsu, China <br />^2000 " + 
+                            "Skill points:^500 programming 6+, design 4+ <br />^2000 " + 
+                            "Sleeping time per night: ^300.^100.^100.^2000 4h<br />^2000 <br />" + 
+                            "Contact me:<br /> ^2000 " + 
+                            "RW1haWw6IGkubmVvQGhvdG1haWwuY29tCldlaWJvOiBAbWV0YWZ5c2lr ^4000 <br /><br /> " +
+                            "Keywords:<br />^500",
+                        ],
+                        typeSpeed: 50,
+                        onStringTyped: function () {
+                            intro.removeCursor();
+
+                            new Typed("#like", {
+                                strings: ["Like: Google Reader",
+                                    "Like: Virgo",
+                                    "Like: 理想主义",
+                                    "Like: 后摇",
+                                    "Like: Billzard",
+                                    "Like: 想象力",
+                                    "Like: C&amp;C Generals: Zero Hour",
+                                    "Like: Design",
+                                    "Like: Exhausted",
+                                    "Like: 堺雅人",
+                                    "Like: 雨天",
+                                    "Like: 拖延症",
+                                    "Like: 独处",
+                                    "Like: 热水澡",
+                                    "Like: 42",
+                                    "Like: 物语系列",
+                                    "Like: 银河",
+                                    "Like: 整洁",
+                                    "Like: 摄影",
+                                    "Like: 碎碎念",
+                                    "Like: 猫",
+                                    "Like: 星际迷航",
+                                    "Like: Lego",
+                                    "Like: 等宽字体",
+                                    "Like: 正确使用标点符号",
+                                    "Like: Weibo",
+                                    "Like: Arknights",
+                                    "Like: Linkin Park",
+                                    "Like: 饱满热情",
+                                    "Like: NOMO",
+                                    "Like: 骑行",
+                                    "Like: 一个人旅行",
+                                    "Like: PDF",
+                                    "Like: 1Password",
+                                    "Like: iPhone",
+                                    "Like: 梶浦由记",
+                                    "Like: Apple",
+                                    "Like: 安静",
+                                    "Like: Gryffindor",
+                                    "Dislike: 做重复的事情",
+                                    "Dislike: 没有智力活动迹象",
+                                    "Dislike: 无法掌控的事物",
+                                    "Dislike: 意料之外",
+                                    "Dislike: 情绪失控",
+                                    "Dislike: 欺骗与谎言",
+                                    "Dislike: 蠢与坏",
+                                    "Dislike: 混乱",
+                                    "Dislike: 迷路",
+                                    "Dislike: 犯错",
+                                    "Dislike: Xiaomi",
+                                    "Dislike: 爬楼梯",
+                                    "Dislike: 盲目从众",
+                                    "Dislike: 抄袭",
+                                    "Dislike: 表现出需求感",
+                                    "Dislike: Skype",
+                                    "Dislike: Error &amp; Warning",
+                                ],
+                                shuffle: true,
+                                typeSpeed: 80,
+                                backSpeed: 50
+                            });
+                        }
+                    });
+            }
+        </script>
+    </body>
+</html>
